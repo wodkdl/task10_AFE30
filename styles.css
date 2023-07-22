@@ -1,9 +1,132 @@
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  min-height: 100vh;
   background-image: url("img.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+}
+
+.page_header {
+  display: flex;
+  justify-content: space-between;
+}
+.page_header_menu svg {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 32ppx;
+  height: 27px;
+}
+.page_header_buttons {
+  margin-top: 36px;
+  margin-right: 59px;
+}
+.page_header_buttons a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 50px;
+  border: 1px solid #FFF;
+  padding: 6px 30px;
+}
+.page_header_buttons a:last-child {
+  margin-left: 60px;
+}
+
+.page_name_h1 {
+  text-align: center;
+  margin-top: 109px;
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.page_name_p {
+  text-align: center;
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -70px;
+}
+
+.page_search input[type=text] {
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+  border-radius: 80px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+  width: 655px;
+  height: 70px;
+  flex-shrink: 0;
+  border: none;
+}
+.page_search input[type=text]::-moz-placeholder {
+  color: rgba(189, 189, 189, 0.8);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 20px;
+}
+.page_search input[type=text]::placeholder {
+  color: rgba(189, 189, 189, 0.8);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 20px;
+}
+.page_search input[type=text]:focus {
+  outline: none;
+  border: none;
+}
+.page_search_offer {
+  margin-left: 446px;
+  margin-top: 20px;
+}
+.page_search_offer a {
+  padding: 10px;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.page_footer .logo {
+  position: absolute;
+  width: 87px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  bottom: 20px;
+}
+
+.question {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+.question a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=styles.css.map */
